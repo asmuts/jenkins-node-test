@@ -1,0 +1,32 @@
+{
+  "name": "jenkins-node-test",
+  "version": "1.0.0",
+  "description": "jenkins deployment test app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest",
+    "unit": "jest unit/*",
+    "integration": "jest integration/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmuts/jenkins-node-test.git"
+  },
+  "author": "asmuts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmuts/jenkins-node-test/issues"
+  },
+  "homepage": "https://github.com/asmuts/jenkins-node-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3",
+    "supertest": "^5.0.0"
+  }
+}
