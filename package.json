@@ -4,7 +4,7 @@
   "description": "jenkins deployment test app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "jest",
     "unit": "jest unit/*",
     "integration": "jest integration/*"
